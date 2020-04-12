@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.serenity-bdd:serenity-jbehave:1.46.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-jbehave/1.46.0/cc6d704132871417249d0b7fa9f66260b0f7acbb/serenity-jbehave-1.46.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-jbehave/1.46.0/bbe9e4c071880eab3d0979e7a9425c3db3b1bf3/serenity-jbehave-1.46.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

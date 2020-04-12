@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jbehave:jbehave-core:4.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jbehave/jbehave-core/4.4/7f0c4e67480700149360c8537131a6ec50bff3de/jbehave-core-4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jbehave/jbehave-core/4.4/a0c24f59848a191dbc37675cd63c6883fa9aa457/jbehave-core-4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
