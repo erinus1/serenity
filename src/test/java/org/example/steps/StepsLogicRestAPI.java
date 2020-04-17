@@ -8,7 +8,6 @@ import net.thucydides.core.annotations.Step;
 import org.example.utils.EndPoints;
 
 public class StepsLogicRestAPI {
-
     RequestSpecification spec;
     Response resp;
 
@@ -17,8 +16,6 @@ public class StepsLogicRestAPI {
                 .given()
                 .accept(ContentType.JSON)
                 .contentType(ContentType.JSON)
-//                .log().uri()
-//                .log().body()
                 .baseUri(EndPoints.URL);
     }
 
@@ -26,12 +23,11 @@ public class StepsLogicRestAPI {
     public void callInventory() {
         resp = spec
             .when()
-            .get(EndPoints.pet_Status)
+            .get(EndPoints.inventory)
             .then()
             .extract()
             .response();
     }
-
 
     @Step
     public void sendOrder(String body) {
@@ -39,29 +35,29 @@ public class StepsLogicRestAPI {
                 .body(body)
                 .post(EndPoints.new_OrderPet);
     }
-//
-//    @Step
-//    public Response getPetOrderId(int id) {
-//        return createBaseSpec()
-//                .pathParam("orderId", id)
-//                .when()
-//                .get(EndPoints.pet_OrderId)
-//                .then()
-//                .extract()
-//                .response();
-//    }
-//
-//    @Step
-//    public Response deletePetOrderId(int id) {
-//        return createBaseSpec()
-//                .baseUri(EndPoints.URL)
-//                .pathParam("orderId", id)
-//                .when()
-//                .delete(EndPoints.pet_OrderId)
-//                .then()
-//                .extract()
-//                .response();
-//    }
+
+    @Step
+    public void getPetOrderId(int id) {
+        resp = spec
+                .pathParam("orderId", id)
+                .when()
+                .get(EndPoints.pet_OrderId)
+                .then()
+                .extract()
+                .response();
+    }
+
+    @Step
+    public void deletePetOrderId(int id) {
+        resp = spec
+                .baseUri(EndPoints.URL)
+                .pathParam("orderId", id)
+                .when()
+                .delete(EndPoints.pet_OrderId)
+                .then()
+                .extract()
+                .response();
+    }
 
     public Response getResponse() {
         return resp;

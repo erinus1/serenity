@@ -92,7 +92,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.1</version>
                 <configuration>
-                    <skip>true</skip>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
@@ -101,11 +100,7 @@
                 <version>2.22.1</version>
                 <configuration>
                     <includes>
-<!--                        <include>**/scenarious/**.java</include>-->
                         <include>**/*Test.java</include>
-                        <include>**/*TestSuite.java</include>
-                        <include>**/Test*.java</include>
-                        <include>**/When*.java</include>
                     </includes>
                     <systemPropertyVariables>
                         <restapi.baseurl>https://petstore.swagger.io/v2</restapi.baseurl>

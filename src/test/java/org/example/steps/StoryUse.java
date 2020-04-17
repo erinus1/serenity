@@ -1,7 +1,9 @@
 package org.example.steps;
 
-import org.example.scenarious.*;
-
+import org.example.scenarious.CheckInventoryTest;
+import org.example.scenarious.DeleteOrderIdTest;
+import org.example.scenarious.GetOrderIdTest;
+import org.example.scenarious.NewOrderTest;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.junit.JUnitStories;
@@ -25,7 +27,7 @@ public class StoryUse extends JUnitStories
 
     @Override
     public List<CandidateSteps> candidateSteps() {
-        return new InstanceStepsFactory(configuration(), new CheckInventory(), new NewOrder())
+        return new InstanceStepsFactory(configuration(), new CheckInventoryTest(), new NewOrderTest(), new GetOrderIdTest(), new DeleteOrderIdTest())
                 .createCandidateSteps();
     }
 
