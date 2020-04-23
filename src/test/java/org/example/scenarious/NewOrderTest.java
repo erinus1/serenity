@@ -1,24 +1,25 @@
 package org.example.scenarious;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
+import net.thucydides.core.annotations.Steps;
 import org.example.steps.StepsLogicRestAPI;
-import org.example.utils.OrderInformation;
+import org.example.utils.Order;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import org.jbehave.core.steps.Steps;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 
 @RunWith(SerenityRunner.class)
-public class NewOrderTest extends Steps {
+public class NewOrderTest {
 
+    @Steps
     StepsLogicRestAPI restAPI;
-    OrderInformation order;
+    Order order;
 
     @Given("Prepare request for an order")
     public void givenPrepareRequestForAnOrder(){
-        order = new OrderInformation(8).status(OrderInformation.STATUS.APPROVED);
+        order = new Order(8).status(Order.STATUS.APPROVED);
         restAPI = new StepsLogicRestAPI();
     }
 
@@ -29,11 +30,11 @@ public class NewOrderTest extends Steps {
 
     @Then("I get the response body with data which has been sent before")
     public void thenIGetTheResponseBodyWithDataWhichHasBeenSentBefore(){
-        OrderInformation responsedOrder = new OrderInformation(
+        Order responsedOrder = new Order(
                 (int) restAPI.getResponse().jsonPath().get("id"),
                 (int) restAPI.getResponse().jsonPath().get("quantity"),
                 (String) restAPI.getResponse().jsonPath().get("shipDate"),
-                OrderInformation.STATUS.valueOf(((String) restAPI.getResponse().jsonPath().get("status")).toUpperCase()),
+                Order.STATUS.valueOf(((String) restAPI.getResponse().jsonPath().get("status")).toUpperCase()),
                 (boolean) restAPI.getResponse().jsonPath().get("complete")
         );
         Assert.assertTrue(order.equals(responsedOrder));

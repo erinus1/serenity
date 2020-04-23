@@ -8,7 +8,7 @@ import java.util.Objects;
 @Accessors(chain = true, fluent = true)
 @Getter
 @Setter
-public class OrderInformation {
+public class Order {
     private int id;
     private int petId;
     private int quantity;
@@ -33,7 +33,7 @@ public class OrderInformation {
         }
     }
 
-    public OrderInformation(int id) {
+    public Order(int id) {
         this.id = id;
         petId = id;
         quantity = 1;
@@ -42,7 +42,7 @@ public class OrderInformation {
         complete = true;
     }
 
-    public OrderInformation(int id, int quantity, String shipData, OrderInformation.STATUS status, boolean isComplete) {
+    public Order(int id, int quantity, String shipData, Order.STATUS status, boolean isComplete) {
         this.id = id;
         petId = id;
         this.quantity = quantity;
@@ -66,8 +66,8 @@ public class OrderInformation {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof OrderInformation)) return false;
-        OrderInformation that = (OrderInformation) o;
+        if (!(o instanceof Order)) return false;
+        Order that = (Order) o;
         return id == that.id &&
                 petId == that.petId &&
                 quantity == that.quantity &&

@@ -15,8 +15,7 @@ import org.jbehave.core.steps.InstanceStepsFactory;
 import java.util.Arrays;
 import java.util.List;
 
-public class StoryUse extends JUnitStories
-{
+public class StoryUse extends JUnitStories {
     @Override
     public Configuration configuration() {
         return new MostUsefulConfiguration()

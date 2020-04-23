@@ -5,9 +5,10 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import net.thucydides.core.annotations.Step;
-import org.example.utils.EndPoints;
+import net.thucydides.core.steps.ScenarioSteps;
+import org.example.utils.*;
 
-public class StepsLogicRestAPI {
+public class StepsLogicRestAPI extends ScenarioSteps {
     RequestSpecification spec;
     Response resp;
 
@@ -16,14 +17,14 @@ public class StepsLogicRestAPI {
                 .given()
                 .accept(ContentType.JSON)
                 .contentType(ContentType.JSON)
-                .baseUri(EndPoints.URL);
+                .baseUri(EnvironmentPropertyLoader.getProperty("url.base"));
     }
 
     @Step
     public void callInventory() {
         resp = spec
             .when()
-            .get(EndPoints.inventory)
+            .get(EnvironmentPropertyLoader.getProperty("endpoint.inventory.get"))
             .then()
             .extract()
             .response();

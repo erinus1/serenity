@@ -1,20 +1,21 @@
 package org.example.scenarious;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
+import net.thucydides.core.annotations.Steps;
 import org.example.steps.StepsLogicRestAPI;
-import org.example.utils.OrderInformation;
+import org.example.utils.Order;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-import org.jbehave.core.steps.Steps;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 
 @RunWith(SerenityRunner.class)
-public class DeleteOrderIdTest extends Steps {
+public class DeleteOrderIdTest{
 
+    @Steps
     StepsLogicRestAPI restAPI;
-    OrderInformation order = new OrderInformation(8);
+    Order order = new Order(8);
 
     @Given("I Sent delete response")
     public void givenISentDeleteResponse(){
