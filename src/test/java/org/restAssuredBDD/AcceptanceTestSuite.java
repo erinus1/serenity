@@ -1,4 +1,4 @@
-package org.example;
+package org.restAssuredBDD;
 
 import net.serenitybdd.jbehave.SerenityStories;
 

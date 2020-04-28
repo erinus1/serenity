@@ -1,4 +1,4 @@
-package org.example.steps;
+package org.restAssuredBDD.steps;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -6,18 +6,21 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.example.utils.*;
+import org.restAssuredBDD.utils.EndPoints;
+import org.restAssuredBDD.utils.EnvironmentPropertyLoader;
 
 public class StepsLogicRestAPI extends ScenarioSteps {
     RequestSpecification spec;
     Response resp;
 
     public StepsLogicRestAPI() {
+        String baseURL = EnvironmentPropertyLoader.getProperty("url.base");
+
         spec = RestAssured
                 .given()
                 .accept(ContentType.JSON)
                 .contentType(ContentType.JSON)
-                .baseUri(EnvironmentPropertyLoader.getProperty("url.base"));
+                .baseUri(baseURL);
     }
 
     @Step

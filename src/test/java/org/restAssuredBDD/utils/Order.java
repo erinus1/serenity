@@ -1,4 +1,4 @@
-package org.example.utils;
+package org.restAssuredBDD.utils;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;

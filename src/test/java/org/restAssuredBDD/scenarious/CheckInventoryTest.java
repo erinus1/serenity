@@ -1,16 +1,12 @@
-package org.example.scenarious;
+package org.restAssuredBDD.scenarious;
 
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
-import org.example.steps.StepsLogicRestAPI;
+import org.restAssuredBDD.steps.StepsLogicRestAPI;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.junit.Assert;
-import org.junit.runner.RunWith;
 
-
-@RunWith(SerenityRunner.class)
 public class CheckInventoryTest {
 
     @Steps
@@ -22,7 +18,7 @@ public class CheckInventoryTest {
         }
 
         @When("I sent request to the pet_Status end point")
-        public void whenISentRequestToThePetstatusEndPoint () throws Throwable {
+        public void whenISentRequestToThePetstatusEndPoint (){
             restAPI.callInventory();
         }
 

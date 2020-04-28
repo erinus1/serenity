@@ -1,16 +1,13 @@
-package org.example.scenarious;
+package org.restAssuredBDD.scenarious;
 
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
-import org.example.steps.StepsLogicRestAPI;
-import org.example.utils.Order;
+import org.restAssuredBDD.steps.StepsLogicRestAPI;
+import org.restAssuredBDD.utils.Order;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.junit.Assert;
-import org.junit.runner.RunWith;
 
-@RunWith(SerenityRunner.class)
 public class GetOrderIdTest {
 
     @Steps

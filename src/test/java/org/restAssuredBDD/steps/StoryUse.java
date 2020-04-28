@@ -1,9 +1,9 @@
-package org.example.steps;
+package org.restAssuredBDD.steps;
 
-import org.example.scenarious.CheckInventoryTest;
-import org.example.scenarious.DeleteOrderIdTest;
-import org.example.scenarious.GetOrderIdTest;
-import org.example.scenarious.NewOrderTest;
+import org.restAssuredBDD.scenarious.CheckInventoryTest;
+import org.restAssuredBDD.scenarious.DeleteOrderIdTest;
+import org.restAssuredBDD.scenarious.GetOrderIdTest;
+import org.restAssuredBDD.scenarious.NewOrderTest;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.configuration.MostUsefulConfiguration;
 import org.jbehave.core.junit.JUnitStories;
