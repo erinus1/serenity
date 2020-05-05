@@ -20,6 +20,7 @@ public class EnvironmentPropertyLoader {
     public static String getProperty(String propertyName) {
         if (single_instance == null) {
             single_instance = new EnvironmentPropertyLoader();
+            log.info("Used env: "+ single_instance);
         }
         return single_instance.conf.getProperty(propertyName);
     }

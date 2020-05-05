@@ -21,6 +21,6 @@ When I sent the order id
 Then I get status code 200
 
 Scenario: check inventory of pet in Pet swager store
-Given Get request to inventory pet_Status end point
-When I sent request to the pet_Status end point
+Given Get request to inventory end point
+When I sent request to the petStatus end point
 Then I get responce status code 200
