@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c0674f7-aab2-4f11-947d-8e3eba597aae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/utils/EnvironmentPropertyLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AcceptanceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/AcceptanceTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/scenarious/CheckInventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/scenarious/CheckInventoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/scenarious/DeleteOrderIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/scenarious/DeleteOrderIdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/scenarious/GetOrderIdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/scenarious/GetOrderIdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/scenarious/NewOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/scenarious/NewOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/StepsLogicRestAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/steps/StepsLogicRestAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/steps/StoryUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/steps/StoryUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/utils/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/utils/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/utils/EnvironmentPropertyLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/utils/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/restAssuredBDD/utils/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/PetActivity.story" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/PetActivity.story" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/narrative.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="serenity" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="serenity" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Sofiia_Bondarenko\Documents\GitHub\serenity\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="11" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aIy9r9fSt1z2Q9xaLPSRqPhIvz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40750214" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="show.unlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sofiia_Bondarenko\Documents\GitHub\serenity\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.framework.pages.EndPoints" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AcceptanceTestSuite">
+    <configuration name="AcceptanceTestSuite" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="serenity" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="org.restAssuredBDD" />
+      <option name="MAIN_CLASS_NAME" value="org.restAssuredBDD.AcceptanceTestSuite" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetOrderIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenity" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.restAssuredBDD.scenarious.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="org.restAssuredBDD.scenarious" />
+      <option name="MAIN_CLASS_NAME" value="org.restAssuredBDD.scenarious.GetOrderIdTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serenity" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.restAssuredBDD.scenarious.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="org.restAssuredBDD.scenarious" />
+      <option name="MAIN_CLASS_NAME" value="org.restAssuredBDD.scenarious.NewOrderTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="serenity" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="org.framework.steps.serenity" />
+      <option name="MAIN_CLASS_NAME" value="org.framework.steps.serenity.AcceptanceTestSuite" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="serenity [verify]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="verify" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AcceptanceTestSuite" />
+      <item itemvalue="JUnit.GetOrderIdTest" />
+      <item itemvalue="JUnit.NewOrderTest" />
+      <item itemvalue="Maven.serenity [verify]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.serenity [verify]" />
+        <item itemvalue="JUnit.GetOrderIdTest" />
+        <item itemvalue="JUnit.NewOrderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Sofiia_Bondarenko\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c0674f7-aab2-4f11-947d-8e3eba597aae" name="Default Changelist" comment="" />
+      <created>1586437254578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586437254578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="365" y="79" key="#GetOrderId" timestamp="1587048201495">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="79" key="#GetOrderId/0.0.1536.824@0.0.1536.824" timestamp="1587048201495" />
+    <state x="361" y="71" key="#Inspections" timestamp="1586602785886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1586602785886" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587480534422">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587480534422" />
+    <state x="223" y="50" width="1089" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588095639141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="50" width="1089" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588095639141" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586850133056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1586850133056" />
+    <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586614977808">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586614977808" />
+    <state x="504" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586611547680">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="504" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1586611547680" />
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586612137489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1586612137489" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586601678657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1586601678657" />
+    <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586597015650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="272" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1586597015650" />
+    <state x="410" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586455246602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586455246602" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586628866986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586628866986" />
+    <state width="397" height="466" key="DebuggerActiveHint" timestamp="1587216272934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="397" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587216272934" />
+    <state x="282" y="133" key="DetectedRootsChooserDialog" timestamp="1586609027641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="282" y="133" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586609027641" />
+    <state x="548" y="192" key="FileChooserDialogImpl" timestamp="1586690932721">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="192" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586690932721" />
+    <state width="1493" height="94" key="GridCell.Tab.0.bottom" timestamp="1588097561007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588097561007" />
+    <state width="1493" height="94" key="GridCell.Tab.0.center" timestamp="1588097561006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588097561006" />
+    <state width="1493" height="94" key="GridCell.Tab.0.left" timestamp="1588097561006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588097561006" />
+    <state width="1493" height="94" key="GridCell.Tab.0.right" timestamp="1588097561007">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="94" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588097561007" />
+    <state width="1493" height="181" key="GridCell.Tab.1.bottom" timestamp="1588091310520">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588091310520" />
+    <state width="1493" height="181" key="GridCell.Tab.1.center" timestamp="1588091310519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588091310519" />
+    <state width="1493" height="181" key="GridCell.Tab.1.left" timestamp="1588091310519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588091310519" />
+    <state width="1493" height="181" key="GridCell.Tab.1.right" timestamp="1588091310519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="181" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588091310519" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1586702470438">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1586702470438" />
+    <state x="98" y="0" width="1395" height="824" key="SettingsEditor" timestamp="1586702487069">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="98" y="0" width="1395" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586702487069" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1588089088675">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588089088675" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1586629348145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1586629348145" />
+    <state x="319" y="308" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586690843562">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="319" y="308" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1586690843562" />
+    <state x="209" y="108" key="new project wizard" timestamp="1586703201622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586703201622" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587046151329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587046151329" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/restAssuredBDD/steps/StepsLogicRestAPI.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
